@@ -15,8 +15,6 @@ def menu():
     [k] Listar Contas
     => """
     return input(textwrap.dedent(menu))
-    # return input("\n\n" + " Menu ".center(LARGURA_PRINT, "=") + textwrap.dedent(menu))
-
 
 def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
     if numero_saques >= limite_saques:
